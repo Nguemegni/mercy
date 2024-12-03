@@ -1,0 +1,40 @@
+a.hover{
+    color: red;
+}
+submit:active{
+    background-color: green;
+}
+input:focus{
+    border-color: blue;
+}
+a:visited{
+    color: purple;
+}
+ul li:last-child{
+    color: red;
+}
+ul li:nth-child(odd){
+    background-color: lightgray;
+}
+div p:nth-of-type(even){
+    font-style: italic;
+}
+<style>
+p {
+    @keyframes mon-animation {
+        color:brown
+    }
+
+}
+
+
+
+
+.class {
+    animation-name: mon-animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

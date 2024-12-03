@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .special {
+            color: orange;
+            font-weight: bold;
+        }
+    </style>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="nexstyle.css">
+    <title>new project</title>
+</head>
+<body>
+    <h1>Bienvenue sur ma page web</h1>
+    <p style="color: red; font-size: 16px;">ceci est un paragraphe de texte</p>
+    <p>my name is mercy</p>
+    <img src="c:\Users\AFC\Pictures\WhatsApp Image 2024-05-21 à 16.49.07_354f6531.jpg" alt="Image d'example" class="exemple">
+    <a href="site.html">lien vers example.COM</a>
+    <ul>
+        <li>pomme</li>
+        <li class="special">banane</li>
+        <li>Orange</li>
+    </ul>
+    <ol>
+        <li>premierv element</li>
+        <li class="exemple">deuxieme element</li>
+        <li>troisieme element</li>
+        ceci est un texte <b>normal</b>
+        voici un mot en <i>italique</i>
+        ce mot est <u>souligné</u>
+    </ol>
+    <blockquote>
+    <p>La vie c'est ce qui nous arrive pendant qu'on est occupé a faire d'autres plans</p>
+    <footer>john lenon</footer>
+    <table>
+        <caption>Liste des employés</caption>
+        <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Martin</td>
+            <td>Durant</td>
+            <td>30</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Nombre d'employés:2</th>
+            </tr>
+        </tfoot>
+    </table>
+    <form action="cible.php" method="post">
+        <input type="text" name="nom" placeholder="Votre nom">
+        <input type="email" name="email" placeholder="Votre adresse email">
+        <input type="submit" value="Envoyer">
+    </form>
+    <form action="cible.php" method="post">
+        <label for="message">Votre message : </label>
+        <textarea name="message" id="message" rows="5" cols="30"></textarea>
+    <input type="submit" value="Envoyer">
+</form>
+<form action="cible.php" method="post">
+    <label for="pays"> Voytre pays</label>
+    <select name="pays" id="pays">
+        <option value="france">France</option>
+        <option value="belgique">Belgique</option>
+    </select>
+    <br>
+    <label for="sport1">Sports pratiqués : </label>
+    <input type="checkbox" name="sport1" id="sport1" value="football">football
+    <input type="checkbox" name="sport2" id="sport2" value="tennis">tennis
+</br>
+<input type="submit" value="Envoyer">
+<div class="exemple-block">
+    <p>ceci est un paragraphe a affichage en bloc.</p>
+    <p>Ceci est un autre paragraphe a affichage en bloc</p>
+</div>
+<span class="example-inline"> Ceci est un texte en ligne</span>
+<span class="example-inline">ceci est un autre texte en ligne</span>
+<div class="example-inline-block">Premier</div>
+<div class="example-inline-block">Deuxieme</div>
+<div class="example-inline-block">Troisieme</div>
+</form>
+</body>
+</html>

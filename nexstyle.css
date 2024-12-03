@@ -1,0 +1,56 @@
+a.hover{
+    color: red;
+}
+submit:active{
+    background-color: green;
+}
+input:focus{
+    border-color: blue;
+}
+a:visited{
+    color: purple;
+}
+ul li:last-child{
+    color: red;
+}
+ul li:nth-child(odd){
+    background-color: lightgray;
+}
+div p:nth-of-type(even){
+    font-style: italic;
+}
+.exemple{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: scale(1.5, 0.5);
+} 
+@keyframes mon-animation 
+{0% {opacity: 0;}
+100% {opacity: 1;}
+}
+.exemple{
+    animation-name: mon-animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0,5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    .exemple-block{
+        display: block;
+        background-color: lightblue;
+        padding: 10px;
+    }
+        .example-inline{
+            display: inline;
+            background-color: lightgreen;
+            padding: 5px;
+        }
+        .example-inline-block{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            margin-right: 10px;
+        }
+}
